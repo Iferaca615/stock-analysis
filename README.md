@@ -15,7 +15,8 @@ The table given to us had 3013 rows of data, which to the average eye is a lot o
 	
 ## Refactored code versus Original and why we refactor:
 
-In this challenge we were told to refactor our code in order to run the script faster, and to make the code more concise and effective.  To visually see the difference between our refactored code and original code, we utilized the function; `Timer`.  We then used pop up screens with runTime of the code were used to display the processing speed of the code before and after refactoring. 
+In this challenge we were told to refactor our code in order to run the script faster, and to make the code more concise and effective.  To visually see the difference between our refactored code and original code, we utilized the function; `Timer`.  We then used pop up screens with runTime of the code were used to display the processing speed of the code.
+ 
 - listed below are the files:
 
 	1) [green stocks original code](stock-analysis/green_stocks.xlsm")
@@ -25,18 +26,21 @@ In this challenge we were told to refactor our code in order to run the script f
 
 Refactoring code has many uses that are extremely important in order to make sure your code is as concise, understandable and effective as possible. 
 
-- advantages:
+- **Advantages:**
 	1) learning to write concise code leaves little room for bugs and misunderstood/unnecessary functions.
 	2) can improve functionality/run time of code
 	3) good practice for learning to read and edit code
 	4) helps teach alternative methods of completing the same task (get around problems)
-- Disadvantages:
+- **Disadvantages:**
 	1) Can take more time to refactor code
 	2) sometime it can lead to new errors
 	3) could be confusion between new and old code if you're not organized and careful
 ---
 
-In our [refactored code](stock-analysis/VBA_Challenge.xlsm) , there were some changes made that in return, allowed our code to run faster.
+In our [refactored code](stock-analysis/VBA_Challenge.xlsm) , there were some changes made that allowed our code to run faster.
+- Pre-Refactor:
+![pre-refactor-2017](pre-refactor-2017.png)
+![
 
 1) separating the for loops from nested for loops:
 - By separating the for loops into two separate loops, we allowed the code to run continuously from beginning to end instead of looping back within the nested loop and then processing the rest of the code.
