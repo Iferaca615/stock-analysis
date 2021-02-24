@@ -56,8 +56,13 @@ In our [refactored code](VBA_Challenge.xlsm) , there were some changes made that
 ![post-refactor-2017](resources/post-refactor-2017.png)
 ![post-refactor-2018](resources/post-refactor-2018.png)
 
-1) separating the for loops from nested for loops:
+#### Changes:
+1) Separating the for loops from nested for loops:
 - By separating the for loops into two separate loops, we allowed the code to run continuously from beginning to end instead of looping back within the nested loop and then processing the rest of the code.
+2) Defining variables differently
+- By defining variables such as `tickerindex` we were able to include that variable when going through the array.
+
+Overall the advantage of refactoring the script was that the script was able to run faster.  However, the script did get longer than the original.  Because the script got longer it may seem like the script wouldn't be as efficient, but as we can see from the run times, the code actually was better than the first!
 
 ---
  	
