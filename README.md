@@ -53,8 +53,8 @@ In our [refactored code](VBA_Challenge.xlsm) , there were some changes made that
 ![pre-refactor-2018](resources/pre-refactor-2018.png)
 
 - Post-Refactor
-![post-refactor-2017](post-refactor-2018.png)
-![post-refactor-2018](post-refactor-2018.png)
+![post-refactor-2017](resources/post-refactor-2018.png)
+![post-refactor-2018](resources/post-refactor-2018.png)
 
 #### Changes:
 1) Separating the for loops from nested for loops:
