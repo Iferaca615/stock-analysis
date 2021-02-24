@@ -26,15 +26,17 @@ Refactoring code has many uses that are extremely important in order to make sur
 
 1) separating the for loops from nested for loops:
 - By separating the for loops into two separate loops, we allowed the code to run continuously from beginning to end instead of looping back within the nested loop and then processing the rest of the code.
+ 	* ```  RowCount = Cells(Rows.Count, "A").End(xlUp).Row    For i = 0 To 11        ticker = tickers(i)        totalVolume = 0        'loop through rows in data    Worksheets(yearValue).Activate                        For j = 2 To RowCount    'increase totalVolume by the value in the current row                If Cells(j, 1).Value = ticker Then            totalVolume = totalVolume + Cells(j, 8).Value                End If        'set startingPrice for current ticker                If Cells(j, 1).Value = ticker And Cells(j - 1, 1).Value <> ticker Then        startingPrice = Cells(j, 6).Value                End If            'set endingPrice for current ticker                If Cells(j, 1).Value = ticker And Cells(j + 1, 1).Value <> ticker Then        endingPrice = Cells(j, 6).Value                End If            Next j                'activate output worksheet        Worksheets("All stocks analysis").ActivateCells(4 + i, 1).Value = tickerCells(4 + i, 2).Value = totalVolumeCells(4 + i, 3).Value = (endingPrice / startingPrice) - 1    Next i
+```
 		
 
 ---
 # Data Visualizations:
 
 1) ![VBA_Challenge_2017](resources/VBA_Challenge_2017.png)
-2) ![stock-analysis-2017](resources/stock-analysis-2017.png)
+2) ![pre-refactor-2017](resources/pre-refactor-2017.png)
 3) ![VBA_Challenge_2018](resources/VBA_Challenge_2018.png)
-4) ![stock-analysis-2018](resources/stock-analysis-2018.png)
+4) ![pre-refactor-2018](resources/pre-refactor-2018.png)
 ---
 # Results:
 
@@ -44,4 +46,6 @@ Refactoring code has many uses that are extremely important in order to make sur
 - The **highest** performing stock in 2017 was "DQ"
 	* "DQ" fell to -62.6% returns in 2018
 
-- The **highest** performing stock in 2018 was "RUN", 
+- The **highest** performing stock in 2018 was "RUN"
+	* "RUN" was returning at a percent of 5.5.% in 2017, and increased its returns to 84.0% in 2018
+ 
