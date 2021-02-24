@@ -30,9 +30,9 @@ Refactoring code has many uses that are extremely important in order to make sur
 ---
 # Data Visualizations:
 
-1) ![VBA_Challenge_2017](resources/VBA_Challenge_2017.png)
+1) ![stock-analysis-2017](resources/stock-analysis-2017.png)
 2) ![pre-refactor-2017](resources/pre-refactor-2017.png)
-3) ![VBA_Challenge_2018](resources/VBA_Challenge_2018.png)
+3) ![stock-analysis-2018](resources/stock-analysis-2018.png)
 4) ![pre-refactor-2018](resources/pre-refactor-2018.png)
 ---
 # Results:
