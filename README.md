@@ -44,7 +44,7 @@ Refactoring code has many uses that are extremely important in order to make sur
 	1) Can take more time to refactor code
 	2) sometime it can lead to new errors
 	3) could be confusion between new and old code if you're not organized and careful
----
+
 
 In our [refactored code](VBA_Challenge.xlsm) , there were some changes made that allowed our code to run faster.  Below are the changes in run time of the code for both years
 
@@ -53,8 +53,8 @@ In our [refactored code](VBA_Challenge.xlsm) , there were some changes made that
 ![pre-refactor-2018](resources/pre-refactor-2018.png)
 
 - Post-Refactor
-![post-refactor-2017](resources/post-refactor-2017.png)
-![post-refactor-2018](resources/post-refactor-2018.png)
+![post-refactor-2017](post-refactor-2018.png)
+![post-refactor-2018](post-refactor-2018.png)
 
 #### Changes:
 1) Separating the for loops from nested for loops:
