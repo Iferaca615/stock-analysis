@@ -30,6 +30,8 @@ Refactoring code has many uses that are extremely important in order to make sur
 ---
 # Data Visualizations:
 
+- **Images 2 and 4 are the runtimes before refactoring code**
+
 1) ![stock-analysis-2017](resources/stock-analysis-2017.png)
 2) ![pre-refactor-2017](resources/pre-refactor-2017.png)
 3) ![stock-analysis-2018](resources/stock-analysis-2018.png)
