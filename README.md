@@ -28,8 +28,8 @@ In this challenge we were told to refactor our code in order to run the script f
  
 - listed below are the files:
 
-	1) [green stocks original code](stock-analysis/green_stocks.xlsm")
-	2) [VBA Challenge refactored code](stock-analysis/VBA_Challenge.xlsm)
+	1) [green stocks original code](green_stocks.xlsm)
+	2) [VBA Challenge refactored code](VBA_Challenge.xlsm)
 
 ### Why refactor the code?
 
@@ -46,15 +46,15 @@ Refactoring code has many uses that are extremely important in order to make sur
 	3) could be confusion between new and old code if you're not organized and careful
 ---
 
-In our [refactored code](stock-analysis/VBA_Challenge.xlsm) , there were some changes made that allowed our code to run faster.  Below are the changes in run time of the code for both years
+In our [refactored code](VBA_Challenge.xlsm) , there were some changes made that allowed our code to run faster.  Below are the changes in run time of the code for both years
 
 - Pre-Refactor:
-![pre-refactor-2017](pre-refactor-2017.png)
-![pre-refactor-2018](pre-refactor-2018.png)
+![pre-refactor-2017](resources/pre-refactor-2017.png)
+![pre-refactor-2018](resources/pre-refactor-2018.png)
 
 - Post-Refactor
-![post-refactor-2017](post-refactor-2017.png)
-![post-refactor-2018](post-refactor-2018.png)
+![post-refactor-2017](resources/post-refactor-2017.png)
+![post-refactor-2018](resources/post-refactor-2018.png)
 
 1) separating the for loops from nested for loops:
 - By separating the for loops into two separate loops, we allowed the code to run continuously from beginning to end instead of looping back within the nested loop and then processing the rest of the code.
